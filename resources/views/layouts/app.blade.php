@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id" x-data="{ mobileOpen: false }"
+      x-init="const saved = localStorage.getItem('theme') || 'light'; if (saved === 'dark') document.documentElement.classList.add('dark');">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>@yield('title', 'Kompas Corner')</title>
+    <meta name="description" content="@yield('meta_description', 'Kompas Corner - Portal berita modern')">
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <script>
+        function toggleTheme() {
+            const root = document.documentElement;
+            const dark = root.classList.toggle('dark');
+            localStorage.setItem('theme', dark ? 'dark' : 'light');
+        }
+    </script>
+</head>
+<body class="min-h-screen">
+    <div class="absolute inset-x-0 top-0 -z-10 h-[420px] bg-gradient-to-b from-white/60 via-white to-transparent dark:from-slate-900/80 dark:via-slate-900/40"></div>
+
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-lg">Loncat ke konten</a>
+
+    <div class="relative flex min-h-screen flex-col">
+        @include('components.navbar')
+
+        <main id="main" class="flex-1 pb-20 pt-10">
+            <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+                @yield('content')
+            </div>
+        </main>
+
+        @include('components.footer')
+    </div>
+</body>
+</html>
