@@ -39,7 +39,7 @@ class PostController extends Controller
 
         $data['user_id'] = $request->user()->id;
         $data['slug'] = Str::slug($data['title']).'-'.Str::random(5);
-        $plain = trim(preg_replace('/\s+/', ' ', strip_tags($data['content'])));
+        $plain = $this->plainText($data['content']);
         $data['excerpt'] = Str::limit($plain, 220);
         $data['meta_title'] = $data['title'];
         $data['meta_description'] = Str::limit($plain, 155);
@@ -75,7 +75,7 @@ class PostController extends Controller
             'cover_image'=>'nullable|image|max:2048'
         ]);
 
-        $plain = trim(preg_replace('/\s+/', ' ', strip_tags($data['content'])));
+        $plain = $this->plainText($data['content']);
         $data['excerpt'] = Str::limit($plain, 220);
         $data['meta_title'] = $data['title'];
         $data['meta_description'] = Str::limit($plain, 155);
@@ -96,5 +96,15 @@ class PostController extends Controller
 
         $post->delete();
         return back()->with('ok','Post dihapus.');
+    }
+
+    private function plainText(string $html): string
+    {
+        return Str::of($html)
+            ->replace(['<br>', '<br/>', '<br />'], "\n")
+            ->replaceMatches('/<\/(p|div|li|h[1-6]|blockquote)>/i', "\n")
+            ->stripTags()
+            ->squish()
+            ->value();
     }
 }

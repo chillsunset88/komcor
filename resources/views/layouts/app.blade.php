@@ -35,6 +35,8 @@
 
         @include('components.footer')
     </div>
+
+    @stack('scripts')
 </body>
 </html>
 

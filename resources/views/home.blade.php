@@ -36,7 +36,7 @@
                             {{ $hero->title }}
                         </h1>
                         <p class="max-w-2xl text-base text-slate-200 sm:text-lg">
-                            {{ $hero->excerpt ?? str($hero->body)->stripTags()->limit(150) }}
+                            {{ $hero->excerpt ?? str($hero->content)->stripTags()->limit(150) }}
                         </p>
                     </div>
                     <div class="flex flex-wrap items-center gap-4 text-sm text-slate-300">
@@ -73,7 +73,7 @@
                                         {{ $story->title }}
                                     </h3>
                                     <p class="text-sm text-slate-500 line-clamp-3 dark:text-slate-300">
-                                        {{ $story->excerpt ?? str($story->body)->stripTags()->limit(120) }}
+                                        {{ $story->excerpt ?? str($story->content)->stripTags()->limit(120) }}
                                     </p>
                                 </div>
                                 <div class="mt-6 flex items-center justify-between text-xs font-semibold text-slate-400">
@@ -112,7 +112,7 @@
                                     <a href="{{ route('post.show', $story->slug) }}">{{ $story->title }}</a>
                                 </h3>
                                 <p class="mt-3 text-sm text-slate-500 line-clamp-3 dark:text-slate-300">
-                                    {{ $story->excerpt ?? str($story->body)->stripTags()->limit(120) }}
+                                    {{ $story->excerpt ?? str($story->content)->stripTags()->limit(120) }}
                                 </p>
                                 <a href="{{ route('post.show', $story->slug) }}" class="mt-6 inline-flex w-fit items-center gap-2 text-sm font-semibold text-slate-600 transition hover:text-slate-900 dark:text-slate-300 dark:hover:text-white">
                                     Selengkapnya
