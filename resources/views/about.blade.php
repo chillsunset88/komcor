@@ -3,135 +3,121 @@
 @section('meta_description','Tentang Kompas Corner - jurnalisme perspektif untuk pembaca kritis Indonesia')
 
 @section('content')
-<div class="space-y-16">
-    <section class="glass-card overflow-hidden p-10 lg:p-14">
-        <div class="grid gap-10 lg:grid-cols-[1.4fr_1fr]">
-            <div class="space-y-6">
-                <span class="inline-flex items-center gap-2 rounded-full bg-slate-900 px-4 py-1 text-xs font-semibold uppercase tracking-[0.35em] text-white dark:bg-white dark:text-slate-900">Our Mission</span>
-                <h1 class="text-4xl font-extrabold leading-tight text-slate-900 dark:text-white lg:text-5xl">
-                    Memperluas sudut pandang Anda terhadap peristiwa dunia.
-                </h1>
-                <p class="text-lg text-slate-600 dark:text-slate-300">
-                    Kompas Corner hadir untuk pembaca yang ingin memahami cerita lebih dalam dari sekadar berita utama. Kami menyajikan rangkuman, perbandingan perspektif, serta analisis ringkas agar Anda dapat mengambil keputusan dengan informasi yang jernih.
-                </p>
-                <div class="grid gap-4 sm:grid-cols-3">
-                    <div class="rounded-2xl border border-slate-200/70 bg-white/80 p-4 text-center dark:border-white/10 dark:bg-white/5">
-                        <p class="text-3xl font-bold text-slate-900 dark:text-white">150+</p>
-                        <p class="text-xs uppercase tracking-[0.3em] text-slate-500">Kontributor</p>
-                    </div>
-                    <div class="rounded-2xl border border-slate-200/70 bg-white/80 p-4 text-center dark:border-white/10 dark:bg-white/5">
-                        <p class="text-3xl font-bold text-slate-900 dark:text-white">40K</p>
-                        <p class="text-xs uppercase tracking-[0.3em] text-slate-500">Pembaca harian</p>
-                    </div>
-                    <div class="rounded-2xl border border-slate-200/70 bg-white/80 p-4 text-center dark:border-white/10 dark:bg-white/5">
-                        <p class="text-3xl font-bold text-slate-900 dark:text-white">98%</p>
-                        <p class="text-xs uppercase tracking-[0.3em] text-slate-500">Kepuasan komunitas</p>
-                    </div>
-                </div>
+<div class="mx-auto max-w-5xl space-y-12">
+    <section class="glass-card space-y-6 p-10 lg:p-14">
+        <h1 class="text-2xl font-bold uppercase tracking-[0.35em] text-slate-500 dark:text-slate-300">[ PENGERTIAN KOMPAS CORNER ]</h1>
+        <div class="space-y-4 text-base leading-relaxed text-slate-700 dark:text-slate-200">
+            <p>Kompas Corner adalah organisasi yang dibuat oleh Kompas Muda dan berada di bawah pengawasan langsung Harian Kompas dan Kemahasiswaan UMN yang didirikan pada tanggal 2 Mei 2013.</p>
+            <p>Kompas Corner memiliki ruangan khusus dengan dilengkapi oleh berbagai fasilitas seperti Komputer, Buku-buku terbitan Kompas, Papan tulis, Kursi, Meja, dan Bantal.</p>
+            <p>Ruangan Kompas Corner berfungsi sebagai ruang diskusi, Tempat untuk membaca buku, dan Tempat untuk mengerjakan tugas.</p>
+            <p>Tujuan organisasi Kompas Corner adalah menjembatani mahasiswa UMN untuk mempunyai koneksi ke Kompas. Kompas Corner bisa menjadi wadah untuk berkarya bagi para mahasiswa UMN di Kompas.</p>
+            <p>Kompas Corner merupakan salah satu organisasi media.</p>
+        </div>
+    </section>
+
+    <section class="glass-card space-y-6 p-10 lg:p-14">
+        <h2 class="text-2xl font-bold uppercase tracking-[0.35em] text-slate-500 dark:text-slate-300">[ VISI & MISI KOMPAS CORNER GEN 12]</h2>
+        <div class="space-y-4 text-base leading-relaxed text-slate-700 dark:text-slate-200">
+            <div class="space-y-3">
+                <p class="font-semibold text-slate-900 dark:text-white">- VISI</p>
+                <p>Menjadikan Kompas Corner sebagai wadah untuk mahasiswa yang menginspirasi, memberdayakan mahasiswa, dan memberikan dampak positif dalam lingkungan kampus.</p>
             </div>
-            <div class="relative">
-                <div class="absolute -inset-6 rounded-[32px] bg-gradient-to-br from-blue-500/20 via-blue-500/5 to-transparent blur-3xl"></div>
-                <div class="relative overflow-hidden rounded-[32px] border border-slate-200/70 bg-slate-900 text-white shadow-xl dark:border-white/10">
-                    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80" alt="Kompas Corner newsroom" class="h-64 w-full object-cover">
-                    <div class="space-y-4 px-6 py-8">
-                        <p class="text-sm uppercase tracking-[0.3em] text-white/60">Edit desk</p>
-                        <p class="text-lg font-semibold text-white">ìKami percaya setiap isu memiliki lebih dari satu sudut pandang. Tugas kami adalah menautkannya bagi Anda.î</p>
-                        <p class="text-sm text-white/70">ó Tim Redaksi Kompas Corner</p>
-                    </div>
+            <div class="space-y-3">
+                <p class="font-semibold text-slate-900 dark:text-white">- MISI</p>
+                <div class="space-y-2">
+                    <p>1. Menjadi fasilitator kepada mahasiswa untuk dapat mengembangkan kemampuan, kreativitas dan kredibilitas</p>
+                    <p>2. Menyediakan wadah diskusi untuk berdialog, berbagi ide, dan aspirasi di lingkungan sekitar kampus.</p>
+                    <p>3. Meningkatkan keterampilan mahasiswa untuk fokus mengembangkan keterampilan komunikasi dalam menghadapi tantangan di dunia profesional</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="glass-card p-10 lg:p-14">
-        <div class="grid gap-10 lg:grid-cols-[1fr_1.2fr]">
-            <div class="space-y-5">
-                <p class="section-label">Bagaimana kami bekerja</p>
-                <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Metodologi redaksi yang transparan</h2>
-                <p class="text-base text-slate-600 dark:text-slate-300">
-                    Kami memadukan teknologi kurasi otomatis dengan verifikasi manual dari editor senior. Setiap berita diberi label konteks, sumber rujukan silang, dan analisis cepat untuk memastikan akurasi dan relevansi.
-                </p>
+    <section class="glass-card space-y-6 p-10 lg:p-14">
+        <div class="space-y-6 text-base leading-relaxed text-slate-700 dark:text-slate-200">
+            <div class="space-y-3">
+                <h3 class="text-2xl font-bold uppercase tracking-[0.35em] text-slate-500 dark:text-slate-300">[TAGLINE]</h3>
+                <p class="text-xl font-semibold text-slate-900 dark:text-white">‚ÄúRuang Interaksi, Wadah Inovasi‚Äù</p>
             </div>
-            <div class="grid gap-4 sm:grid-cols-2">
-                <div class="rounded-2xl border border-slate-200/70 bg-white/90 p-5 dark:border-white/10 dark:bg-white/5">
-                    <h3 class="font-semibold text-slate-900 dark:text-white">Katalog sumber</h3>
-                    <p class="mt-2 text-sm text-slate-500 dark:text-slate-300">Lebih dari 200 media lokal & global kami bandingkan setiap hari untuk menangkap bias dan pola pemberitaan.</p>
-                </div>
-                <div class="rounded-2xl border border-slate-200/70 bg-white/90 p-5 dark:border-white/10 dark:bg-white/5">
-                    <h3 class="font-semibold text-slate-900 dark:text-white">Tim riset</h3>
-                    <p class="mt-2 text-sm text-slate-500 dark:text-slate-300">Data journalist kami memvisualisasikan isu kompleks menjadi insight grafis yang mudah dipahami.</p>
-                </div>
-                <div class="rounded-2xl border border-slate-200/70 bg-white/90 p-5 dark:border-white/10 dark:bg-white/5">
-                    <h3 class="font-semibold text-slate-900 dark:text-white">Verifikasi berlapis</h3>
-                    <p class="mt-2 text-sm text-slate-500 dark:text-slate-300">Setiap artikel melewati dua editor independen sebelum tayang untuk menjaga standar etik jurnalistik.</p>
-                </div>
-                <div class="rounded-2xl border border-slate-200/70 bg-white/90 p-5 dark:border-white/10 dark:bg-white/5">
-                    <h3 class="font-semibold text-slate-900 dark:text-white">Suara komunitas</h3>
-                    <p class="mt-2 text-sm text-slate-500 dark:text-slate-300">Feedback pembaca kami integrasikan ke dalam agenda liputan mingguan melalui sesi townhall daring.</p>
-                </div>
+            <div class="space-y-3">
+                <h3 class="text-2xl font-bold uppercase tracking-[0.35em] text-slate-500 dark:text-slate-300">[KONSEP GEN 12]</h3>
+                <p class="text-xl font-semibold text-slate-900 dark:text-white">‚ÄúRuang Interaksi Dari Kami Untuk Masa Depan‚Äù</p>
+            </div>
+            <div class="space-y-4">
+                <h3 class="text-2xl font-bold uppercase tracking-[0.35em] text-slate-500 dark:text-slate-300">[TEMA GEN 12]</h3>
+                <p>Peradaban Kuno</p>
+                <p>Filosofi : Mengusung tema peradaban kuno seperti Yunani, Mesir, Romawi dan Tiongkok organisasi Kompas Corner diharapkan dapat mengintegrasikan filosofi dari peradaban kuno dengan tujuan organisasi sebagai wadah kreasi untuk seluruh mahasiswa Universitas Multimedia Nusantara.</p>
+                <p>Pada peradaban Mesir Kuno : Peradaban Mesir dikenal dengan prinsip keseimbangan dalam kehidupan sehari-hari, baik dalam aspek sosial maupun lingkungan. Kompas Corner dapat menjadi platform yang mempromosikan kolaborasi antar mahasiswa untuk menciptakan proyek-proyek yang harmonis dan berkelanjutan.</p>
+                <p>Pada peradaban Yunani Kuno : Filsuf seperti Socrates dan Plato menekankan pentingnya dialog dan refleksi untuk mencapai kebenaran. Ini sejalan dengan tujuan Kompas Corner untuk menciptakan ruang diskusi yang mendorong mahasiswa berpikir kritis dan kreatif.</p>
+                <p>Pada peradaban Romawi Kuno : Romawi mengajarkan pentingnya kepemimpinan yang bertanggung jawab. Kompas Corner dapat mengembangkan program kepemimpinan yang menekankan tanggung jawab sosial, membantu mahasiswa menjadi pemimpin yang peduli terhadap komunitas.</p>
+                <p>Pada peradaban Tiongkok Kuno : Ajaran Konfusius menekankan nilai-nilai etika dalam pendidikan dan kehidupan sehari-hari. Kompas Corner dapat mengintegrasikan pendidikan moral dalam kegiatan mereka, membimbing mahasiswa untuk menjadi individu yang beretika.</p>
+                <p>Dengan mengadopsi filosofi dari peradaban kuno. Kompas Corner diharapkan menjadi wadah untuk memperkaya pengalaman organisasi mahasiswa di Universitas Multimedia Nusantara.</p>
             </div>
         </div>
     </section>
 
-    <section class="grid gap-8 lg:grid-cols-[1.1fr_1fr]">
-        <div class="glass-card p-10">
-            <p class="section-label">Jejak perjalanan</p>
-            <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Tonggak Kompas Corner</h2>
-            <ol class="mt-6 space-y-4 border-l border-slate-200 pl-6 dark:border-white/10">
-                <li>
-                    <div class="-ml-[27px] flex items-start gap-3">
-                        <span class="inline-flex size-10 items-center justify-center rounded-full border border-slate-200 bg-white text-sm font-semibold text-slate-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-200">2016</span>
-                        <div class="space-y-1">
-                            <p class="font-semibold text-slate-900 dark:text-white">Soft launch edisi newsletter</p>
-                            <p class="text-sm text-slate-500 dark:text-slate-300">Diluncurkan sebagai email mingguan yang merangkum fenomena sosial-politik.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="-ml-[27px] flex items-start gap-3">
-                        <span class="inline-flex size-10 items-center justify-center rounded-full border border-slate-200 bg-white text-sm font-semibold text-slate-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-200">2019</span>
-                        <div class="space-y-1">
-                            <p class="font-semibold text-slate-900 dark:text-white">Peluncuran aplikasi mobile</p>
-                            <p class="text-sm text-slate-500 dark:text-slate-300">Pengalaman membaca dipersonalisasi dengan mode ringkasan dan perspektif kontra.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="-ml-[27px] flex items-start gap-3">
-                        <span class="inline-flex size-10 items-center justify-center rounded-full border border-slate-200 bg-white text-sm font-semibold text-slate-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-200">2023</span>
-                        <div class="space-y-1">
-                            <p class="font-semibold text-slate-900 dark:text-white">Integrasi AI summarizer</p>
-                            <p class="text-sm text-slate-500 dark:text-slate-300">Menggabungkan machine learning dan kurasi editor untuk merangkum isu kompleks dalam 90 detik.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="-ml-[27px] flex items-start gap-3">
-                        <span class="inline-flex size-10 items-center justify-center rounded-full border border-slate-200 bg-white text-sm font-semibold text-slate-600 dark:border-white/10 dark:bg-white/5 dark:text-slate-200">2025</span>
-                        <div class="space-y-1">
-                            <p class="font-semibold text-slate-900 dark:text-white">Kolaborasi Komunitas</p>
-                            <p class="text-sm text-slate-500 dark:text-slate-300">Program ìReaders Deskî membantu pembaca mengusulkan isu prioritas untuk diliput.</p>
-                        </div>
-                    </div>
-                </li>
-            </ol>
-        </div>
-
-        <div class="glass-card p-10">
-            <p class="section-label">Bergabung</p>
-            <h2 class="text-2xl font-semibold text-slate-900 dark:text-white">Ingin bekerja sama?</h2>
-            <p class="mt-4 text-sm text-slate-600 dark:text-slate-300">Kami membuka peluang bagi media partner, peneliti data, dan jurnalis independen untuk menghadirkan laporan mendalam bersama Kompas Corner.</p>
-            <div class="mt-6 space-y-3 text-sm text-slate-500 dark:text-slate-300">
-                <div>
-                    <p class="font-semibold text-slate-700 dark:text-slate-200">Press & Partnership</p>
-                    <a href="mailto:press@kompascorner.id" class="text-blue-600 hover:underline dark:text-blue-300">press@kompascorner.id</a>
-                </div>
-                <div>
-                    <p class="font-semibold text-slate-700 dark:text-slate-200">Karier Editorial</p>
-                    <a href="mailto:careers@kompascorner.id" class="text-blue-600 hover:underline dark:text-blue-300">careers@kompascorner.id</a>
+    <section class="glass-card space-y-8 p-10 lg:p-14">
+        <h2 class="text-2xl font-bold uppercase tracking-[0.35em] text-slate-500 dark:text-slate-300">[DIVISI KOMPAS CORNER GEN 12]</h2>
+        <div class="space-y-8 text-base leading-relaxed text-slate-700 dark:text-slate-200">
+            <div class="space-y-3">
+                <p class="font-semibold text-slate-900 dark:text-white">1. EVENT</p>
+                <div class="space-y-2">
+                    <p>- Membuat acara podcast, menjadi mc pleno. Menjadi wartawan untuk mobile journalism.</p>
+                    <p>- Merancang berbagai kegiatan Kompas Corner.</p>
                 </div>
             </div>
-            <a href="mailto:hello@kompascorner.id" class="mt-6 inline-flex items-center gap-2 rounded-full bg-slate-900 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-700 dark:bg-white dark:text-slate-900">Hubungi Kami ?</a>
+            <div class="space-y-3">
+                <p class="font-semibold text-slate-900 dark:text-white">2. PUBLIC RELATIONS</p>
+                <div class="space-y-2">
+                    <p>- Bertanggung jawab untuk membangun hubungan dan citra yang baik antara Kompas Corner dengan pihak eksternal maupun pihak internal</p>
+                    <p>- Meningkatkan Kualitas serta ketepatan waktu dalam menyampaikan informasi penting yang akurat melalui sosial media Kompas Corner</p>
+                    <p>- Membuat konten yang menarik perhatian dan peminatan Komcorians!</p>
+                    <p>- Merekam konten mobile journalism secara menarik.</p>
+                </div>
+            </div>
+            <div class="space-y-3">
+                <p class="font-semibold text-slate-900 dark:text-white">3. MULTIMEDIA</p>
+                <div class="space-y-2">
+                    <p>- Bertanggung jawab dalam publikasi yang dilakukan di Sosial Media Kompas Corner.</p>
+                    <p>- Bertanggung jawab dalam fotografi, dan videografi yang inovatif dan kreatif.</p>
+                    <p>- Dokumentasi seluruh acara Kompas Corner.</p>
+                </div>
+            </div>
+            <div class="space-y-3">
+                <p class="font-semibold text-slate-900 dark:text-white">4. ART</p>
+                <div class="space-y-2">
+                    <p>- Bertanggung jawab dalam visual yang akan di publikasi di Sosial Media Kompas Corner.</p>
+                    <p>- Bertanggung jawab dalam design grafis yang inovatif dan kreatif.</p>
+                    <p>- Membuat branding dan & identitas visual Kompas Corner.</p>
+                </div>
+            </div>
+            <div class="space-y-3">
+                <p class="font-semibold text-slate-900 dark:text-white">5. EDITORIAL</p>
+                <div class="space-y-2">
+                    <p>- Membuat tulisan untuk website Kompas Corner</p>
+                    <p>- Memastikan setiap publikasi yang dikeluarkan oleh Kompas Corner sudah sesuai penulisan yang benar</p>
+                    <p>- Melakukan liputan</p>
+                    <p>- Membuat artikel berita dalam sebulan minimal 3 (bebas)</p>
+                    <p>- Membuat artikel tentang mojo dalam sebulan minimal 3</p>
+                </div>
+            </div>
+            <div class="space-y-3">
+                <p class="font-semibold text-slate-900 dark:text-white">6. GENERAL AFFAIRS</p>
+                <div class="space-y-2">
+                    <p>- Bertanggung jawab dalam hal pengelolaan administrasi dan operasional untuk mendukung kegiatan yang diadakan Kompas Corner.</p>
+                    <p>- Menyiapkan ketersediaan perlengkapan untuk acara Kompas Corner</p>
+                    <p>- Mengatur peminjaman ruangan kompas corner dan ruangan-ruangan lainnya yang diperlukan (seperti pleno, podcast, dan acara lainnya yang memerlukan ruangan)</p>
+                </div>
+            </div>
+            <div class="space-y-3">
+                <p class="font-semibold text-slate-900 dark:text-white">7. IT</p>
+                <div class="space-y-2">
+                    <p>- Merancang dan mengembangkan website</p>
+                    <p>- Mengelola database</p>
+                    <p>- Mencegah kesalahan keamanan</p>
+                    <p>- Mengupload artikel ke website</p>
+                </div>
+            </div>
         </div>
     </section>
 </div>

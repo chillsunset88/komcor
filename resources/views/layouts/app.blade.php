@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id" x-data="{ mobileOpen: false }"
       x-init="const saved = localStorage.getItem('theme') || 'light'; if (saved === 'dark') document.documentElement.classList.add('dark');">
 <head>
@@ -19,8 +19,8 @@
         }
     </script>
 </head>
-<body class="min-h-screen">
-    <div class="absolute inset-x-0 top-0 -z-10 h-[420px] bg-gradient-to-b from-white/60 via-white to-transparent dark:from-slate-900/80 dark:via-slate-900/40"></div>
+<body class="min-h-screen bg-white dark:bg-slate-950">
+    <div class="absolute inset-x-0 top-0 -z-10 h-[420px] hidden bg-transparent dark:block dark:bg-gradient-to-b dark:from-slate-900/80 dark:via-slate-900/40 dark:to-transparent"></div>
 
     <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-lg">Loncat ke konten</a>
 
@@ -37,3 +37,4 @@
     </div>
 </body>
 </html>
+

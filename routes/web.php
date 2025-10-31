@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
@@ -9,6 +9,7 @@ use App\Http\Controllers\Admin\CategoryController as AdminCategoryController;
 use App\Http\Controllers\Admin\UserController as AdminUserController;
 use App\Http\Controllers\Admin\MenuController as AdminMenuController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SiteSettingController;
 use App\Models\Category;
 
 Route::middleware(['track.visits'])->group(function () {
@@ -23,8 +24,8 @@ Route::middleware(['track.visits'])->group(function () {
 });
 
 require __DIR__.'/auth.php';
-
 Route::prefix('admin')->middleware(['auth','role:admin'])->group(function () {
+    Route::put('settings/logo', [SiteSettingController::class, 'updateLogo'])->name('admin.settings.logo');
     Route::get('/', [AdminDashboard::class, 'index'])->name('admin.dashboard');
     Route::resource('categories', AdminCategoryController::class)->except(['show']);
     Route::get('users', [AdminUserController::class, 'index'])->name('admin.users.index');
