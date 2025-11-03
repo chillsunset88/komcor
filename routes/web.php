@@ -30,6 +30,7 @@ Route::prefix('admin')->middleware(['auth','role:admin'])->group(function () {
     Route::resource('categories', AdminCategoryController::class)->except(['show']);
     Route::get('users', [AdminUserController::class, 'index'])->name('admin.users.index');
     Route::patch('users/{user}/role', [AdminUserController::class, 'updateRole'])->name('admin.users.updateRole');
+    Route::delete('users/{user}', [AdminUserController::class, 'destroy'])->name('admin.users.destroy');
 
     Route::get('menus', [AdminMenuController::class, 'index'])->name('admin.menus.index');
     Route::post('menus', [AdminMenuController::class, 'store'])->name('admin.menus.store');
