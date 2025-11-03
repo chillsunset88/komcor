@@ -69,6 +69,24 @@
     @apply w-full rounded-t-lg border border-slate-200 bg-slate-100 dark:border-slate-700 dark:bg-slate-800;
   }
 
+  .quill-wrapper .ql-toolbar button,
+  .quill-wrapper .ql-toolbar .ql-picker-label,
+  .quill-wrapper .ql-toolbar .ql-picker-item {
+    color: #ffffff;
+  }
+
+  .quill-wrapper .ql-toolbar .ql-stroke {
+    stroke: #ffffff !important;
+  }
+
+  .quill-wrapper .ql-toolbar .ql-fill {
+    fill: #ffffff !important;
+  }
+
+  .quill-wrapper .ql-toolbar .ql-picker {
+    @apply text-white;
+  }
+
   .quill-wrapper .ql-container {
     @apply w-full rounded-b-lg border border-t-0 border-slate-200 bg-white text-slate-900 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100;
     min-height: 16rem;

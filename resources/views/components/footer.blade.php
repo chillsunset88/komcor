@@ -2,7 +2,11 @@
     <div class="mx-auto grid max-w-6xl gap-10 px-4 sm:grid-cols-2 lg:grid-cols-4">
         <div class="space-y-4">
             <a href="/" class="flex items-center gap-2 text-lg font-bold text-slate-900 dark:text-white">
-                <span class="inline-flex size-8 items-center justify-center rounded-full bg-slate-900 text-white">KC</span>
+                @if(!empty($siteLogo))
+                    <img src="{{ $siteLogo }}" alt="Kompas Corner" class="h-10 w-auto object-contain" />
+                @else
+                    <span class="inline-flex size-8 items-center justify-center rounded-full bg-slate-900 text-white dark:bg-white dark:text-slate-900">KC</span>
+                @endif
                 Kompas Corner
             </a>
             <p class="text-sm leading-relaxed">

@@ -146,7 +146,7 @@
             </div>
 
             @include('components.sidebar-latest', ['latest' => $latest])
-
+<!-- 
             <div class="rounded-3xl border border-slate-200/80 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6 text-white shadow-lg">
                 <h3 class="text-lg font-semibold">Dapatkan ringkasan pagi</h3>
                 <p class="mt-2 text-sm text-white/80">Kirimkan email berisi sorotan berita terpenting langsung ke inbox Anda.</p>
@@ -154,7 +154,7 @@
                     <input type="email" class="w-full rounded-full border border-white/30 bg-white/10 px-4 py-2 text-sm placeholder:text-white/60 focus:border-white focus:outline-none" placeholder="nama@email.com">
                     <button type="button" class="w-full rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-900 transition hover:bg-slate-200">Berlangganan</button>
                 </form>
-            </div>
+            </div> -->
         </aside>
     </div>
 @endif

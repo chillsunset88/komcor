@@ -51,11 +51,6 @@
             </form>
 
             <div class="flex w-full flex-wrap items-center justify-end gap-2 lg:w-auto lg:flex-nowrap">
-                <button type="button" onclick="toggleTheme()" class="inline-flex size-9 items-center justify-center rounded-full border border-slate-200 text-slate-600 transition hover:border-slate-900 hover:text-slate-900 dark:hover:text-white dark:border-white/10 dark:text-white dark:hover:border-white/40">
-                    <svg class="size-4 dark:hidden" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3a1 1 0 0 1 1 1v1.1a1 1 0 1 1-2 0V4a1 1 0 0 1 1-1Zm6 9a6 6 0 1 1-6-6 1 1 0 0 1 0 2 4 4 0 1 0 4 4 1 1 0 0 1 2 0Z"/></svg>
-                    <svg class="hidden size-4 dark:block" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 0 1 11.21 3 7 7 0 1 0 21 12.79Z"/></svg>
-                </button>
-
                 @auth
                     <div x-data="{ open: false }" class="relative flex w-full justify-end md:w-auto">
                         <button type="button" @click="open = !open" class="flex w-full items-center justify-center gap-2 rounded-full border border-slate-200/80 bg-white/80 px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-slate-900 dark:hover:border-white/40 hover:text-slate-900 dark:hover:text-white dark:border-white/10 dark:bg-white/10 dark:text-slate-100 md:w-auto">
@@ -152,7 +147,6 @@
         </div>
     </div>
 </header>
-
 
 
 

@@ -16,12 +16,12 @@
         @csrf
         <div class="space-y-2">
             <label class="text-xs font-semibold uppercase tracking-widest text-slate-400">Email</label>
-            <input type="email" name="email" value="{{ old('email') }}" required autofocus class="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 dark:border-slate-700 dark:bg-slate-900" placeholder="admin@example.com">
+            <input type="email" name="email" value="{{ old('email') }}" required autofocus class="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 dark:border-slate-700 dark:bg-slate-900" placeholder="Email">
         </div>
 
         <div class="space-y-2">
             <label class="text-xs font-semibold uppercase tracking-widest text-slate-400">Password</label>
-            <input type="password" name="password" required class="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 dark:border-slate-700 dark:bg-slate-900" placeholder="••••••••">
+            <input type="password" name="password" required class="w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-200 dark:border-slate-700 dark:bg-slate-900" placeholder="Password">
         </div>
 
         <button class="w-full rounded-full bg-brand-600 px-6 py-3 text-sm font-semibold text-white transition hover:bg-brand-500">Masuk</button>
