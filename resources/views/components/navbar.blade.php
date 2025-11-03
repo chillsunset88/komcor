@@ -68,7 +68,7 @@
                                 </div>
                             </div>
                             <div class="space-y-2 text-sm">
-                                <a href="{{ route('dashboard') }}" class="flex items-center justify-between rounded-2xl border border-slate-200 px-4 py-2 font-semibold text-slate-600 transition hover:border-slate-900 hover:text-slate-900 dark:border-white/10 dark:text-slate-200 dark:hover:border-white/30 dark:hover:text-white">Pengaturan Akun<span class="text-xs text-slate-400">?</span></a>
+                                <!-- <a href="{{ route('dashboard') }}" class="flex items-center justify-between rounded-2xl border border-slate-200 px-4 py-2 font-semibold text-slate-600 transition hover:border-slate-900 hover:text-slate-900 dark:border-white/10 dark:text-slate-200 dark:hover:border-white/30 dark:hover:text-white">Pengaturan Akun<span class="text-xs text-slate-400">?</span></a> -->
                                 @if($user->isAdmin())
                                     <a href="{{ route('admin.dashboard') }}" class="flex items-center justify-between rounded-2xl border border-slate-200 px-4 py-2 font-semibold text-slate-600 transition hover:border-slate-900 hover:text-slate-900 dark:border-white/10 dark:text-slate-200 dark:hover:border-white/30 dark:hover:text-white">Dashboard Admin<span class="text-xs text-slate-400">?</span></a>
                                 @elseif($user->isAuthor())
